@@ -7,6 +7,7 @@
 
 import Foundation
 import SwiftUI
+import WebKit
 class GameManager: ObservableObject {
     var questions = [Question]()
     @Published private(set) var index = 0
