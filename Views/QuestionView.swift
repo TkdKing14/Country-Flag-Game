@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct QuestionView: View {
-    @StateObject var gameManager = GameManager()
+    @EnvironmentObject var gameManager: GameManager
     var body: some View {
         VStack(spacing: 20) {
             if gameManager.playingGame {

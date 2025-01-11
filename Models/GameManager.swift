@@ -26,6 +26,7 @@ class GameManager: ObservableObject {
         score = 0
         progress = 0.0
         goToNextQuestion()
+        playingGame = true
     }
     func loadQuestions () {
         let countries = Data().countries
@@ -69,6 +70,12 @@ class GameManager: ObservableObject {
         }
         else {
             playingGame = false
+        }
+    }
+    func selectAnswer(answer: Answer) {
+        answerSelected = true
+        if answer.isCorrect {
+            score += 1
         }
     }
 }
