@@ -16,6 +16,21 @@
 			path = "Country Flag Game";
 			sourceTree = "<group>";
 		};
+		DF7BCBD92D32149100D06B42 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DF7BCBDB2D3214A400D06B42 /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		DF7BCBDE2D3214C700D06B42 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +49,9 @@
 			children = (
 				DF661E7E2D317D21007E10E2 /* Country Flag Game */,
 				DF661E7D2D317D21007E10E2 /* Products */,
+				DF7BCBD92D32149100D06B42 /* Models */,
+				DF7BCBDB2D3214A400D06B42 /* Components */,
+				DF7BCBDE2D3214C700D06B42 /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +80,9 @@
 			);
 			fileSystemSynchronizedGroups = (
 				DF661E7E2D317D21007E10E2 /* Country Flag Game */,
+				DF7BCBD92D32149100D06B42 /* Models */,
+				DF7BCBDB2D3214A400D06B42 /* Components */,
+				DF7BCBDE2D3214C700D06B42 /* Views */,
 			);
 			name = "Country Flag Game";
 			packageProductDependencies = (
