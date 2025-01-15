@@ -28,8 +28,8 @@ struct Data {
         "Sweden",
         "Ukraine",
         "United States",
-        "Antigua and Barbuda",
-        "Australlia",
+        "Belgium",
+        "Australia",
         "Bahamas",
         "Argentina",
         "Canada"
